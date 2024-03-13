@@ -111,6 +111,41 @@ h2 {
     width: 100%;
 }
 
-/* @media max-width(768px) {
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .pantallaInicial p {
+        font-size: 1.2rem;
+        text-align: center;
+     }
 
-} */
+    .nivelCalidad h2{
+        font-size: 2.2rem;
+     }
+
+    .nivelCalidad {
+        margin-top: 100px;
+     }
+
+    .contenido {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: auto; */
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        width: 100vw;
+        height: 100%;
+        gap: 20px;
+        color: #fff;
+        margin-top: 100px;
+    }
+
+
+    
+
+   
+}
